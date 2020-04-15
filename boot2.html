@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		
+		<title>Fender Guitars</title>
+	
+		<link rel="stylesheet" type="text/css" href="boot2.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+	
+		<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+	
+	<body>
+		
+		<!-- Preloader CC-BY License https://loading.io/spinner/radio-->
+		<div id="fenderPre" class="hidePreloader preloader d-flex justify-content-center align-items-center">
+			<img id="loadImg" src="radio.gif" alt="preloader">
+		</div>
+
+		<!-- NavBar -->
+		<nav class="navbar navbar-expand-lg px-3 height-10" id="navBar">
+			<a class="navbar-brand" href="#">
+				<img src="logo.png" id="fenderLogo" alt="logo">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle='collapse' data-target='#theNav'>
+				<span class="navbar-icon">
+					<i class="fas fa-bars"></i>
+				</span>
+			</button>
+			<div class="collapse navbar-collapse" id="theNav">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#navbar">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#skills">Skills</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#inventory">Inventory</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#featured">Featured</a>
+					</li>
+				</ul>
+				<div class="nav-icons d-none d-lg-block">
+					<a class="nav-icon" href="https://www.facebook.com/Fender/">
+						<i class="fab fa-facebook"></i>
+					</a>
+					<a class="nav-icon" href="https://twitter.com/Fender">
+						<i class="fab fa-twitter"></i>
+					</a>
+					<a class="nav-icon" href="https://www.instagram.com/fender/?hl=en">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</div>
+			</div>
+		</nav>
+		
+		<!-- Header -->
+		<header class="header" id="header">
+			<div class="container-fluid">
+				<div class="row height-max align-items-center">
+					<div class="col col-md-9 ml-auto text-right pr-5">
+						<h5 class="title-heading d-inline-block p-2 text-uppercase">Introducing</h5>
+						<h2 class="text-uppercase my-2 title">The Player Series</h2>
+						<h3 class="text-uppercase">New Pickups. New Colors. Authentic Tone.</h3>
+						<h6 class="text-capitalize">starts from</h6>
+						<h2>$649.99
+							<a class="title-icon d-inline-block mx-2">
+								<i class="fas fa-play"></i>
+							</a>
+						</h2>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<!-- Section -->
+		<section class="skills py-5" class="skills">
+			<div class="container">
+				<div class="row mb-5">
+					<div class="col d-flex flex-wrap text-uppercase justify-content-center">
+						<h1 class="font-weight-bold align-self-center mx-1">why choose</h1>
+						<h1 class="section-title--special mx-1">Fender</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6 col-lg-3 text-center my-3">
+						<a href="#" class="skills-icon p-2 rounded-circle">
+							<i class="fas fa-landmark fa-fw" alt="History"></i>
+						</a>
+						<h6 class="text-uppercase font-weight-bold my-3">History</h6>
+						<div class="skills-underline"></div>
+						<p class="w-75 mx-auto text-muted">Fender Guitars and Amps have been around forever.
+						Hold a piece of history in your hands.</p>
+					</div>
+					<div class="col-sm-6 col-lg-3 text-center my-3">
+						<a href="#" class="skills-icon p-2 rounded-circle">
+							<i class="far fa-star fa-fw" alt="Star Power"></i>
+						</a>
+						<h6 class="text-uppercase font-weight-bold my-3">Star Power</h6>
+						<div class="skills-underline"></div>
+						<p class="w-75 mx-auto text-muted">Some of the greatest have relied on Fender, including:
+						Eric Clapton, Jimi Hendrix, David Gilmour, Stevie Ray Vaughan, Buddy Guy, Kenny Wayne Shepherd,
+						Bruce Springsteen, Keith Richards, and John Mayer.</p>
+					</div>
+					<div class="col-sm-6 col-lg-3 text-center my-3">
+						<a href="#" class="skills-icon p-2 rounded-circle">
+							<i class="fas fa-dice fa-fw" alt="Versatile"></i>
+						</a>
+						<h6 class="text-uppercase font-weight-bold my-3">Versatile</h6>
+						<div class="skills-underline"></div>
+						<p class="w-75 mx-auto text-muted">Fender is genreless. From Pop to Heavy Metal
+						and everything inbetween, Fender can play all style and still sound great.</p>
+					</div>
+					<div class="col-sm-6 col-lg-3 text-center my-3">
+						<a href="#" class="skills-icon p-2 rounded-circle">
+							<i class="fas fa-cogs fa-fw" alt="Equipment"></i>
+						</a>
+						<h6 class="text-uppercase font-weight-bold my-3">Equipment</h6>
+						<div class="skills-underline"></div>
+						<p class="w-75 mx-auto text-muted">From starter level, all the way up to the custom shop;
+						electric to acoustic; amps and effects; basses to banjos; Fender offers a ton of top level
+						equipment that will always sound great.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Inventory -->
+		<section class="inventory py-5" id="inventory">
+			<div class="container">
+				<div class="row mb-5">
+					<div class="col d-flex flex-wrap text-uppercase justify-content-center">
+						<h1 class="font-weight-bold align-self-center mx-1">Our</h1>
+						<h1 class="section-title--special mx-1">Products</h1>
+					</div>
+				</div>
+				<div class="row mb-5">
+					<div class="col-10 mx-auto col-md-12 d-flex justify-content-end">
+						<button class="btn btn-outline-secondary text-uppercase mx-1">All</button>
+						<button class="btn btn-outline-secondary text-uppercase mx-1">Electric</button>
+						<button class="btn btn-outline-secondary text-uppercase mx-1">Acoustic</button>
+						<button class="btn btn-outline-secondary text-uppercase mx-1">Bass</button>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+						<div class="card guitar-card">
+							<img src="clapton.jpg" class="card-img-top guitar-img" alt="Strat">
+							<div class="card-body">
+								<div class="guitar-info d-flex justify-content-between">
+									<div class="guitar-text text-uppercase">
+										<h6 class="font-weight-bold">Stratocaster</h6>
+										<h6>Pictured: Eric Clapton</h6>
+									</div>
+									<h5 class="guitar-value align-self-center py-2 px-3">$599.99
+										<span class="guitar-price"></span>
+									</h5>
+								</div>
+							</div>
+							<div class="card-footer text-capitalize d-flex justify-content-between">
+								<p><span><i class="fas fa-music"></i> 57 Types</span></p>
+								<p><span><i class="fas fa-volume-up"></i> 3 Pickups</span></p>
+								<p><span><i class="fas fa-bullhorn"></i> Whammy Bar</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+						<div class="card guitar-card">
+							<img src="springsteen.jpg" class="card-img-top guitar-img" alt="Tele">
+							<div class="card-body">
+								<div class="guitar-info d-flex justify-content-between">
+									<div class="guitar-text text-uppercase">
+										<h6 class="font-weight-bold">Telecaster</h6>
+										<h6>Pictured: Bruce Springsteen</h6>
+									</div>
+									<h5 class="guitar-value align-self-center py-2 px-3">$499.99
+										<span class="guitar-price"></span>
+									</h5>
+								</div>
+							</div>
+							<div class="card-footer text-capitalize d-flex justify-content-between">
+								<p><span><i class="fas fa-music"></i> 39 Types</span></p>
+								<p><span><i class="fas fa-volume-up"></i> 2 Pickups</span></p>
+								<p><span><i class="fas fa-bullhorn"></i> No Whammy Bar</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+						<div class="card guitar-card">
+							<img src="costello.jpg" class="card-img-top guitar-img" alt="Jazz">
+							<div class="card-body">
+								<div class="guitar-info d-flex justify-content-between">
+									<div class="guitar-text text-uppercase">
+										<h6 class="font-weight-bold">Jazzmaster</h6>
+										<h6>Pictured: Elvis Costello</h6>
+									</div>
+									<h5 class="guitar-value align-self-center py-2 px-3">$674.99
+										<span class="guitar-price"></span>
+									</h5>
+								</div>
+							</div>
+							<div class="card-footer text-capitalize d-flex justify-content-between">
+								<p><span><i class="fas fa-music"></i> 11 Types</span></p>
+								<p><span><i class="fas fa-volume-up"></i> 2 Pickups</span></p>
+								<p><span><i class="fas fa-bullhorn"></i> Whammy Bar</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+						<div class="card guitar-card">
+							<img src="cobain.jpg" class="card-img-top guitar-img" alt="Jaguar">
+							<div class="card-body">
+								<div class="guitar-info d-flex justify-content-between">
+									<div class="guitar-text text-uppercase">
+										<h6 class="font-weight-bold">Jaguar</h6>
+										<h6>Pictured: Kurt Cobain (Nirvana)</h6>
+									</div>
+									<h5 class="guitar-value align-self-center py-2 px-3">$674.99
+										<span class="guitar-price"></span>
+									</h5>
+								</div>
+							</div>
+							<div class="card-footer text-capitalize d-flex justify-content-between">
+								<p><span><i class="fas fa-music"></i> 9 Types</span></p>
+								<p><span><i class="fas fa-volume-up"></i> 2 Pickups</span></p>
+								<p><span><i class="fas fa-bullhorn"></i> Whammy Bar</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+						<div class="card guitar-card">
+							<img src="healy.jpg" class="card-img-top guitar-img" alt="Mustang">
+							<div class="card-body">
+								<div class="guitar-info d-flex justify-content-between">
+									<div class="guitar-text text-uppercase">
+										<h6 class="font-weight-bold">Mustang</h6>
+										<h6>Pictured: Matty Healy (The 1975)</h6>
+									</div>
+									<h5 class="guitar-value align-self-center py-2 px-3">$499.99
+										<span class="guitar-price"></span>
+									</h5>
+								</div>
+							</div>
+							<div class="card-footer text-capitalize d-flex justify-content-between">
+								<p><span><i class="fas fa-music"></i> 2 Types</span></p>
+								<p><span><i class="fas fa-volume-up"></i> 2 Pickups</span></p>
+								<p><span><i class="fas fa-bullhorn"></i> Invidual Pickup Selection</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+						<div class="card guitar-card">
+							<img src="midland.jpg" class="card-img-top guitar-img" alt="California">
+							<div class="card-body">
+								<div class="guitar-info d-flex justify-content-between">
+									<div class="guitar-text text-uppercase">
+										<h6 class="font-weight-bold">California Series</h6>
+										<h6>Pictured: Midland</h6>
+									</div>
+									<h5 class="guitar-value align-self-center py-2 px-3">$399.99
+										<span class="guitar-price"></span>
+									</h5>
+								</div>
+							</div>
+							<div class="card-footer text-capitalize d-flex justify-content-between">
+								<p><span><i class="fas fa-music"></i> 9 Types</span></p>
+								<p><span><i class="fas fa-volume-up"></i> Cutaway Option</span></p>
+								<p><span><i class="fas fa-bullhorn"></i> Acoustic / Electric</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+						<div class="card guitar-card">
+							<img src="mendes.jpg" class="card-img-top guitar-img" alt="Concert">
+							<div class="card-body">
+								<div class="guitar-info d-flex justify-content-between">
+									<div class="guitar-text text-uppercase">
+										<h6 class="font-weight-bold">Concert Series</h6>
+										<h6>Pictured: Shawn Mendes</h6>
+									</div>
+									<h5 class="guitar-value align-self-center py-2 px-3">$199.99
+										<span class="guitar-price"></span>
+									</h5>
+								</div>
+							</div>
+							<div class="card-footer text-capitalize d-flex justify-content-between">
+								<p><span><i class="fas fa-music"></i> 16 Types</span></p>
+								<p><span><i class="fas fa-volume-up"></i> Cutaway Option</span></p>
+								<p><span><i class="fas fa-bullhorn"></i> Acoustic / Electric</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+						<div class="card guitar-card">
+							<img src="flea.jpg" class="card-img-top guitar-img" alt="Jazz">
+							<div class="card-body">
+								<div class="guitar-info d-flex justify-content-between">
+									<div class="guitar-text text-uppercase">
+										<h6 class="font-weight-bold">Jazz Bass</h6>
+										<h6>Pictured: Flea (Red Hot Chili Peppers)</h6>
+									</div>
+									<h5 class="guitar-value align-self-center py-2 px-3">$624.99
+										<span class="guitar-price"></span>
+									</h5>
+								</div>
+							</div>
+							<div class="card-footer text-capitalize d-flex justify-content-between">
+								<p><span><i class="fas fa-music"></i> 25 Types</span></p>
+								<p><span><i class="fas fa-volume-up"></i> 2 Pickups</span></p>
+								<p><span><i class="fas fa-bullhorn"></i> 4 or 5 Strings</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+						<div class="card guitar-card">
+							<img src="dirnt.jpg" class="card-img-top guitar-img" alt="Precision">
+							<div class="card-body">
+								<div class="guitar-info d-flex justify-content-between">
+									<div class="guitar-text text-uppercase">
+										<h6 class="font-weight-bold">Precision Bass</h6>
+										<h6>Pictured: Mike Dirnt (Green Day)</h6>
+									</div>
+									<h5 class="guitar-value align-self-center py-2 px-3">$624.99
+										<span class="guitar-price"></span>
+									</h5>
+								</div>
+							</div>
+							<div class="card-footer text-capitalize d-flex justify-content-between">
+								<p><span><i class="fas fa-music"></i> 19 Types</span></p>
+								<p><span><i class="fas fa-volume-up"></i> 1 Pickups</span></p>
+								<p><span><i class="fas fa-bullhorn"></i> 4 or 5 Strings</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+						<div class="card guitar-card">
+							<img src="djones.jpg" class="card-img-top guitar-img" alt="Precision">
+							<div class="card-body">
+								<div class="guitar-info d-flex justify-content-between">
+									<div class="guitar-text text-uppercase">
+										<h6 class="font-weight-bold">Mustang Bass</h6>
+										<h6>Pictured: Darryl Jones (The Rolling Stones)</h6>
+									</div>
+									<h5 class="guitar-value align-self-center py-2 px-3">$574.99
+										<span class="guitar-price"></span>
+									</h5>
+								</div>
+							</div>
+							<div class="card-footer text-capitalize d-flex justify-content-between">
+								<p><span><i class="fas fa-music"></i> 2 Types</span></p>
+								<p><span><i class="fas fa-volume-up"></i> 3 Pickups</span></p>
+								<p><span><i class="fas fa-bullhorn"></i> 4 Strings</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Question Section -->
+		<div class="section question height-50 py-auto py-5" id="question">
+			<div class="container">
+				<div class="row">
+					<div class="col-10 col-md-6 d-flex justify-content-between question-grey p-4">
+						<a href="#" class="question-icon mr-3">
+							<i class="fas fa-search fa-fw"></i>
+						</a>
+						<div class="question-text w-75">
+							<h4 class="question-title text-capitalize font-weight-bold">Are you looking for a guitar?</h4>
+							<p class="question-info">We can hook you up with the latest and greatest Fender guitars</p>
+						</div>
+					</div>
+					<div class="col-10 col-md-6 d-flex justify-content-between question-red p-4">
+						<a href="#" class="question-icon mr-3">
+							<i class="fas fa-dollar-sign fa-fw"></i>
+						</a>
+						<div class="question-text w-75">
+							<h4 class="question-title text-capitalize font-weight-bold">Do you want to sell a guitar?</h4>
+							<p class="question-info">Not impressed? We don't mind paying you for a used instrument, providing it
+							is in good condition.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Featured Artists -->
+		<section class="featured py-5" id="featured">
+			<div class="container">
+				<div class="row mb-5">
+					<div class="col d-flex flex-wrap text-uppercase justify-content-center">
+						<h1 class="font-weight-bold align-self-center mx-1">Featured</h1>
+						<h1 class="section-title--special mx-1">Artists</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-10 mx-auto col-lg-6 featured-info my-3">
+						<div class="featured-item my-3 d-flex p-2 text-capitalize align-items-baseline flex-wrap">
+							<span class="featured-icon mr-2">
+								<i class="fas fa-music"></i>
+							</span>
+							<h5 class="font-weight-bold mx-1">Greta Van Fleet</h5>
+							<h5 class="mx-1">New Artist</h5>		
+						</div>
+						<div class="featured-item my-3 d-flex p-2 text-capitalize align-items-baseline flex-wrap">
+							<span class="featured-icon mr-2">
+								<i class="fas fa-music"></i>
+							</span>
+							<h5 class="font-weight-bold mx-1">Old Dominion</h5>
+							<h5 class="mx-1">Songwriters to Stars</h5>
+							
+						</div>
+						<div class="featured-item my-3 d-flex p-2 text-capitalize align-items-baseline flex-wrap">
+							<span class="featured-icon mr-2">
+								<i class="fas fa-music"></i>
+							</span>
+							<h5 class="font-weight-bold mx-1">Kurt Vile</h5>
+							<h5 class="mx-1">Jaguar</h5>
+						</div>
+						<div class="featured-item my-3 d-flex p-2 text-capitalize align-items-baseline flex-wrap">
+							<span class="featured-icon mr-2">
+								<i class="fas fa-music"></i>
+							</span>
+							<h5 class="font-weight-bold mx-1">Chris Stapleton</h5>
+							<h5 class="mx-1">Fender on SNL</h5>
+						</div>
+						<div class="featured-item my-3 d-flex p-2 text-capitalize align-items-baseline flex-wrap">
+							<span class="featured-icon mr-2">
+								<i class="fas fa-music"></i>
+							</span>
+							<h5 class="font-weight-bold mx-1">Peter Buck</h5>
+							<h5 class="mx-1">Anyone Can Learn</h5>
+						</div>
+					</div>
+					<div class="col-10 mx-auto col-lg-6 featured-img align-self-center my-3">
+						<div class="img-container">
+							<img src="greta.jpg" alt="Greta Van Fleet" class="img-fluid featured-photo">
+							<a href="#" class="featured-link">
+								<i class="fas fa-search"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Gallery -->
+		<section class="gallery py-5" id="gallery">
+			<div class="container">
+				<div class="row mb-5">
+					<div class="col d-flex flex-wrap text-uppercase justify-content-center">
+						<h1 class="font-weight-bold align-self-center mx-1">Our</h1>
+						<h1 class="section-title--special mx-1">Gallery</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="gallery-item">
+							<img src="mayer.jpg" alt="Mayer" class="img-fluid gallery-img"> 
+						</div>
+					</div>
+					<div class="col-sm-6 d-flex flex-column justify-content-between">
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="gallery-item">
+									<img src="vaughan.jpg" alt="Vaughan" class="img-fluid lilPic gallery-img"> 
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="gallery-item">
+									<img src="paisley.png" alt="Paisley" class="img-fluid lilPic gallery-img"> 
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="gallery-item">
+									<img src="frusci.jpg" alt="Frusciante" class="img-fluid lilPic gallery-img"> 
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="gallery-item">
+									<img src="urban.jpg" alt="Urban" class="img-fluid lilPic gallery-img"> 
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Contact -->
+		<section class="contact py-5 height-60" id="contact">
+			<div class="container py-5">
+				<div class="row py-5">
+					<div class="col-8 mx-auto col-md-6 py-5">
+						<form class="py-5">
+							<div class="form-group">
+								<input type="email" class="form-control contact-input p-3" placeholder="Enter Email">
+							</div>
+							<button type="submit" class="btn btn-outline-secondary btn-block contact-btn">Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Fender Play -->
+		<div class="container pt-5">
+			<div class="row mb-5">
+				<div class="col d-flex flex-wrap text-uppercase justify-content-center">
+					<h1 class="font-weight-bold align-self-center mx-1">Fender</h1>
+					<h1 class="section-title--special mx-1">Play</h1>
+				</div>
+			</div>
+		</div>
+		<section class="services d-flex align-items-center" id="services">
+			<div class="video-container">
+				<video class="video-item" autoplay loop muted>
+					<source src="video.mp4" type="video/mp4">Your Browser Does Not Support Our Video</source>
+				</video>
+			</div>
+			<div class="video-overlay"></div>
+			<div class="container py-5">
+				<div class="row my-3">
+					<div class="col-8 mx-auto col-g-6 col-md-4 my-3">
+						<div class="service py-5 pl-4">
+							<span class="service-icon">
+								<i class="fas fa-music"></i>
+							</span>
+							<h6 class="text-capitalize service-title">Step by Step</h6>
+							<h5 class="text-uppercase font-weight-bold">Learning</h5>
+						</div>
+					</div>
+					<div class="col-8 mx-auto col-g-6 col-md-4 my-3">
+						<div class="service py-5 pl-4">
+							<span class="service-icon">
+								<i class="fas fa-music"></i>
+							</span>
+							<h6 class="text-capitalize service-title">Easy to Follow</h6>
+							<h5 class="text-uppercase font-weight-bold">Lessons</h5>
+						</div>
+					</div>
+					<div class="col-8 mx-auto col-g-6 col-md-4 my-3">
+						<div class="service py-5 pl-4">
+							<span class="service-icon">
+								<i class="fas fa-music"></i>
+							</span>
+							<h6 class="text-capitalize service-title">Track Your</h6>
+							<h5 class="text-uppercase font-weight-bold">Progress</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Quotes -->
+		<section class="quotes py-5 my-5" id="quotes">
+			<div class="container">
+				<div class="row mb-5">
+					<div class="col d-flex flex-wrap text-uppercase justify-content-center">
+						<h1 class="font-weight-bold align-self-center mx-1">What they</h1>
+						<h1 class="section-title--special mx-1">Say</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-10 mx-auto my-5 col-md-6 col-lg-4">
+						<div class="card">
+							<img src="harrison2.jpg" alt="George Playing" class="card-img-top">
+							<div class="card-body text-center customer-card-body">
+								<img src="harrison.jpg" alt="George" class="rounded-circle customer-img">
+								<div class="card-title">
+									<h5 class="customer-name text-capitalize">George Harrison</h5>
+								</div>
+								<h6 class="customer-job text-capitalize">The Beatles, The Travelling Wilburys, and Solo Work</h6>
+								<p class="customer-quote text-center">I just love the shape of the strat. I love the
+								three pickups, the shape of the head, the neck. Even if it wasn't a guitar, if it was
+								a door stop or something, it would still be a great piece of design.</p>
+								<span class="customer-icon">
+									<i class="fas fa-quote-left"></i>
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-10 mx-auto my-5 col-md-6 col-lg-4">
+						<div class="card">
+							<img src="keef2.jpg" alt="Keef Playing" class="card-img-top">
+							<div class="card-body text-center customer-card-body">
+								<img src="keef.jpg" alt="Keef" class="rounded-circle customer-img">
+								<div class="card-title">
+									<h5 class="customer-name text-capitalize">Keith Richards</h5>
+								</div>
+								<h6 class="customer-job text-capitalize">The Rolling Stones, X-Pensive Winos, and Solo Work</h6>
+								<p class="customer-quote text-center">It's like Leo Fender, Leonardo Da Vinci... Leo's
+								an artist, an original. The Strat is as sturdy and strong as a mule, yet it has the 
+								elegance of a racehorse. It's got everything you need, and that's rare to find in 
+								anything. The man made a work of art here.</p>
+								<span class="customer-icon">
+									<i class="fas fa-quote-left"></i>
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-10 mx-auto my-5 col-md-6 col-lg-4">
+						<div class="card">
+							<img src="jimmie.jpg" alt="Jimmie Riffing" class="card-img-top">
+							<div class="card-body text-center customer-card-body">
+								<img src="jimmie2.jpg" alt="JV" class="rounded-circle customer-img">
+								<div class="card-title">
+									<h5 class="customer-name text-capitalize">Jimmie Vaughan</h5>
+								</div>
+								<h6 class="customer-job text-capitalize">Solo Guitarist</h6>
+								<p class="customer-quote text-center">A Stratocaster does all the things that other guitars
+								do. The other guitars are famouse because they have a certain sound, but this one will do
+								everything. It can be a big box Gibson sound, it'll sound like a telecaster, it'll do 
+								everything. Plus it looks cool!</p>
+								<span class="customer-icon">
+									<i class="fas fa-quote-left"></i>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Footer -->
+		<footer class="footer py-5">
+			<div class="footer-icons d-flex justify-content-around">
+				<a class="footer-icon" href="#">
+					<i class="fab fa-facebook"></i>
+				</a>
+				<a class="footer-icon" href="#">
+					<i class="fab fa-twitter"></i>
+				</a>
+				<a class="footer-icon" href="#">
+					<i class="fab fa-instagram"></i>
+				</a>
+				<a class="footer-icon" href="#">
+					<i class="fab fa-linkedin"></i>
+				</a>
+				<a class="footer-icon" href="#">
+					<i class="fab fa-google-plus"></i>
+				</a>
+			</div>
+		</footer>
+		
+		<script src="boot2.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	</body>
+</html>
